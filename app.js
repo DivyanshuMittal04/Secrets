@@ -12,7 +12,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {
+mongoose.connect("mongodb://localhost:27017/userDB", 
+{
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
